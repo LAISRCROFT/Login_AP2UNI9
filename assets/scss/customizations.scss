@@ -1,0 +1,54 @@
+div#__nuxt {
+    height: 100vh;
+    div#__layout {
+        height: 100%;
+        .index {
+            .card-form {
+                .btn-outline-dark {
+                    color: #bd9fd8;
+                    border-color: #bd9fd8;
+                    &:hover {
+                        color: #fff !important;
+                        background-color: #bd9fd8;
+                        border-color: #9d83b3 !important;
+                    }
+                }
+                .form-control {
+                    font-family: 'Poppins';
+                    &:focus {
+                        border-color: #c9b4db;
+                        box-shadow: 0 0 0 0.1rem rgb(164 129 193);
+                    }
+                    &:active {
+                        color: #fff;
+                    }
+                }
+                button:focus:not(:focus-visible) {
+                    outline: 0;
+                    box-shadow: none;
+                }
+                .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark.dropdown-toggle:focus {
+                    box-shadow: none;
+                }
+            }
+            .modal-registrarse {
+                
+            }
+        }
+    }
+}  
+.row-modal-inputs {
+    .form-control {
+        font-family: 'Poppins';
+        &:focus {
+            border-color: #c9b4db;
+            box-shadow: 0 0 0 0.1rem rgb(164 129 193);
+        }
+        &:active {
+            color: #fff;
+        }
+    }
+}
+.bg-primary {
+    background: linear-gradient(88deg, rgb(183 166 198) 0%, rgb(226 208 242) 100%) !important;
+}
